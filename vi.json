@@ -1,0 +1,18 @@
+{
+  "extName": { "message": "Dạ Hành Studio - Tự động hóa Google Veo" },
+  "extDescription": { "message": "Công cụ hỗ trợ tạo video AI hàng loạt trên Google Labs Flow của Dạ Hành Studio." },
+  "tab_workspace": { "message": "Không gian làm việc" },
+  "tab_logs": { "message": "Nhật ký" },
+  "tab_settings": { "message": "Cài đặt" },
+  "tab_resources": { "message": "Tài nguyên" },
+  "resources_docs_title": { "message": "Tài liệu & Hướng dẫn Dạ Hành" },
+  "button_start": { "message": "Bắt đầu chạy" },
+  "button_stop": { "message": "Dừng lại" },
+  "log_submit_success": { "message": "Dạ Hành Studio: Đã gửi thành công Prompt #{index}." },
+  "donate_text": { "message": "Ủng hộ Dạ Hành Studio" },
+  "author_info": { "message": "Phát triển bởi Dạ Hành Studio" },
+  "banner_free_title": { "message": "Phiên bản Dạ Hành Studio" },
+  "banner_free_description": { "message": "Bạn đang sử dụng công cụ từ Dạ Hành Studio hoàn toàn miễn phí!" },
+  "banner_support_title": { "message": "Kết nối với chúng tôi" },
+  "banner_support_description": { "message": "Tham gia cộng đồng Dạ Hành Studio để nhận cập nhật mới nhất." }
+}

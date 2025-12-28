@@ -1,0 +1,282 @@
+{
+  "languages": [
+    {
+      "code": "en",
+      "nativeName": "English",
+      "enabled": true,
+      "isDefault": true,
+      "useEmbedded": true
+    },
+    {
+      "code": "vi",
+      "nativeName": "Tiếng Việt",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": true
+    },
+    {
+      "code": "ja",
+      "nativeName": "日本語",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "ko",
+      "nativeName": "한국어",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "zh-CN",
+      "nativeName": "简体中文",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "es",
+      "nativeName": "Español",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "id",
+      "nativeName": "Bahasa Indonesia",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "th",
+      "nativeName": "ไทย",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "hi",
+      "nativeName": "हिन्दी",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "pt-BR",
+      "nativeName": "Português",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "fr",
+      "nativeName": "Français",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "de",
+      "nativeName": "Deutsch",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    }
+  ],
+  "models": [ 
+    {
+      "id": "veo3_fast",
+      "labelKey": "model_veo3_fast",
+      "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Fast')]",
+      "isDefault": true,
+      "enabled": true,
+      "badge": null
+    },
+    {
+      "id": "veo3_fast_lower",
+      "labelKey": "model_veo3_fast_lower",
+      "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Fast [Lower Priority]')]",
+      "isDefault": false,
+      "enabled": true,
+      "badge": null
+    },
+    {
+      "id": "veo2_fast",
+      "labelKey": "model_veo2_fast",
+      "xpath": "//div[@role='option' and contains(., 'Veo 2 - Fast')]",
+      "isDefault": false,
+      "enabled": true,
+      "badge": null
+    },
+    {
+      "id": "veo3_quality",
+      "labelKey": "model_veo3_quality",
+      "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Quality')]",
+      "isDefault": false,
+      "enabled": true,
+      "badge": null
+    },
+    {
+      "id": "veo2_quality",
+      "labelKey": "model_veo2_quality",
+      "xpath": "//div[@role='option' and contains(., 'Veo 2 - Quality')]",
+      "isDefault": false,
+      "enabled": true,
+      "badge": null
+    }
+  ],
+  "aspectRatios": [
+    {
+      "id": "landscape",
+      "labelKey": "ratio_landscape",
+      "xpath": "//div[@role='option' and .//i[normalize-space(text())='crop_landscape']]",
+      "isDefault": true,
+      "enabled": true
+    },
+    {
+      "id": "portrait",
+      "labelKey": "ratio_portrait",
+      "xpath": "//div[@role='option' and .//i[normalize-space(text())='crop_portrait']]",
+      "isDefault": false,
+      "enabled": true
+    }
+  ],
+  "videoCounts": [
+    {
+      "id": "1",
+      "label": "1",
+      "xpath": "//div[@role='option' and .//span[text()='1']]",
+      "isDefault": true,
+      "enabled": true
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "xpath": "//div[@role='option' and .//span[text()='2']]",
+      "isDefault": false,
+      "enabled": true
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "xpath": "//div[@role='option' and .//span[text()='3']]",
+      "isDefault": false,
+      "enabled": true
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "xpath": "//div[@role='option' and .//span[text()='4']]",
+      "isDefault": false,
+      "enabled": true
+    }
+  ],
+  "modes": [
+    {
+      "id": "text-to-video",
+      "labelKey": "mode_text_to_video_full",
+      "icon": "Type",
+      "isDefault": true,
+      "enabled": true
+    },
+    {
+      "id": "image-to-video",
+      "labelKey": "mode_image_to_video_full",
+      "icon": "ImagePlay",
+      "isDefault": false,
+      "enabled": true
+    },
+    {
+      "id": "images",
+      "labelKey": "mode_images_full",
+      "icon": "ImagePlus",
+      "isDefault": false,
+      "enabled": true
+    }
+  ],
+  "imageSortOrders": [
+    {
+      "id": "az",
+      "labelKey": "sort_order_az",
+      "isDefault": true,
+      "enabled": true
+    },
+    {
+      "id": "za",
+      "labelKey": "sort_order_za",
+      "isDefault": false,
+      "enabled": true
+    },
+    {
+      "id": "newest",
+      "labelKey": "sort_order_newest",
+      "isDefault": false,
+      "enabled": true
+    },
+    {
+      "id": "oldest",
+      "labelKey": "sort_order_oldest",
+      "isDefault": false,
+      "enabled": true
+    }
+  ],
+  "selectors": {
+    "NEW_PROJECT_BUTTON_XPATH": "//button[.//i[normalize-space(text())='add_2']] | (//button[.//i[normalize-space(.)='add_2']])",
+    "MODE_DROPDOWN_XPATH": "//button[@role='combobox' and .//i[text()='arrow_drop_down']]",
+    "IMAGE_TO_VIDEO_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='photo_spark']]",
+    "TEXT_TO_VIDEO_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='text_analysis']]",
+    "INGREDIENTS_TO_VIDEO_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='photo_merge_auto']]",
+    "CREATE_IMAGE_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='add_photo_alternate']]",
+    "PROMPT_TEXTAREA_ID": "PINHOLE_TEXT_AREA_ELEMENT_ID",
+    "GENERATE_BUTTON_XPATH": "//button[.//i[text()='arrow_forward']] | (//button[.//i[normalize-space(text())='arrow_forward']])",
+    "INITIAL_OVERLAY_DIV_XPATH": "//div[contains(@class, 'kSkErZ')]",
+    "SETTINGS_BUTTON_XPATH": "//button[.//div[contains(., 'Veo')] and .//i[normalize-space(text())='volume_up' or normalize-space(text())='volume_off']]",
+    "OUTPUT_NUMBER_BUTTON_XPATH": "//button[@role='combobox' and .//span[not(.//i) and (normalize-space(.)='1' or normalize-space(.)='2' or normalize-space(.)='3' or normalize-space(.)='4')]]",
+    "MODEL_SELECTION_BUTTON_XPATH": "//button[@role='combobox' and .//span[not(.//i) and contains(normalize-space(),'Veo')]]",
+    "ASPECT_RATIO_DROPDOWN_XPATH": "//button[@role='combobox' and .//i[normalize-space(text())='crop_portrait' or normalize-space(text())='crop_landscape']]",
+    "START_IMAGE_ADD_BUTTON_XPATH": "(//button[.//div[@data-type='button-overlay'] and .//i[text()='add']])[1]",
+    "END_IMAGE_ADD_BUTTON_XPATH": "(//button[.//div[@data-type='button-overlay'] and .//i[text()='add']])[2]",
+    "HIDDEN_FILE_INPUT_XPATH": "//input[@type='file']",
+    "UPLOAD_SPINNER_XPATH": "//i[contains(text(), 'progress_activity')]",
+    "IMAGE_CROP_RATIO_DROPDOWN_XPATH": "//button[@role='combobox' and .//i[normalize-space(text())='arrow_drop_down'] and .//i[normalize-space(text())='crop_9_16' or normalize-space(text())='crop_16_9']]",
+    "IMAGE_CROP_RATIO_PORTRAIT_XPATH": "//div[@role='option' and .//i[normalize-space(text())='crop_9_16']]",
+    "IMAGE_CROP_RATIO_LANDSCAPE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='crop_16_9']]",
+    "CROP_AND_SAVE_BUTTON_XPATH": "//button[.//i[normalize-space(text())='crop']]",
+    "RESULT_CONTAINER_XPATH": "//div[@data-index and @data-item-index]",
+    "PROMPT_IN_CONTAINER_XPATH": ".//button[normalize-space(.) != '' and following-sibling::div//text()[contains(., 'Veo')]]",
+    "VIDEOS_IN_CONTAINER_XPATH": ".//video[starts-with(@src, 'http')]",
+    "IMAGE_POLICY_ERROR_POPUP_XPATH": "//li[@data-sonner-toast and .//i[normalize-space(text())='error']]",
+    "PROMPT_POLICY_ERROR_POPUP_XPATH": "//li[@data-sonner-toast and .//i[normalize-space(text())='error']]",
+    "DOWNLOAD_BUTTON_IN_VIDEO_XPATH": ".//button[.//i[normalize-space()='download']]",
+    "DOWNLOAD_GIF_OPTION_XPATH": "//div[@role='menuitem' and .//i[normalize-space()='gif_box']]",
+    "DOWNLOAD_1080P_OPTION_XPATH": "//div[@role='menuitem' and .//i[normalize-space()='aspect_ratio']]",
+    "DOWNLOAD_POPUP_XPATH": "//li[@data-sonner-toast and .//a[contains(text(), 'Tải xuống')]]",
+    "DOWNLOAD_BUTTON_IN_POPUP_XPATH": ".//a[contains(text(), 'Tải xuống')]",
+    "CLOSE_BUTTON_IN_POPUP_XPATH": ".//button[contains(text(), 'Đóng')]",
+    "NOTIFICATION_POPUP_XPATH": "//li[@data-sonner-toast and .//button[contains(text(), 'Đóng')] and not(.//a[contains(text(), 'Tải xuống')])]",
+    "GRID_VIEW_BUTTON_XPATH": "(//button[@role='radio' and .//i[normalize-space(text())='grid_on']]) | (//button[.//i[normalize-space(.)='grid_view']])",
+    "UPGRADE_VIDEO_CONTAINER_XPATH": "./ancestor::div[contains(@class, 'sc-ad287003-0')]",
+    "VIDEOS_XPATH": "//video[@src]"
+  },
+  "timingSettings": {
+    "minInitialWait": 60,
+    "maxInitialWait": 90,
+    "scanInterval": 2000,
+    "finalScanDuration": 120000,
+    "rateLimitMs": 300
+  },
+  "featureFlags": {
+    "enableHistoryTab": true,
+    "enableAutoDownload": true,
+    "enable1080pDownload": false,
+    "enableGifDownload": false
+  },
+  "metadata": {
+    "version": "2.0.0",
+    "lastUpdated": "2025-12-28",
+    "compatibleExtensionVersions": ["1.2.0+", "2.0.0+"],
+    "description": "Dạ Hành Studio - Cấu hình XPaths và Cài đặt tự động hóa cho Google Flow (v2.0.0)"
+  }
+}
