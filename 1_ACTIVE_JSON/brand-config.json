@@ -11,6 +11,12 @@
         "icon": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/zalo.png",
         "url": "https://zalo.me/your-number"
       }
+    },
+    "footer": "© 2024 Dạ Hành Studio",
+    "donate": {
+      "enabled": true,
+      "text": "Ủng hộ tôi nếu ứng dụng thực sự hỗ trợ được bạn | Cảm ơn",
+      "qrCode": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/qr.jpg"
     }
   }
 }
