@@ -1,0 +1,101 @@
+{
+    "banner": {
+      "promo": {
+        "title": "Special Offer",
+        "description": "Explore our other SnapGen tools and extensions to boost your productivity!",
+        "link": "https://snapgens.com/upgrade",
+        "linkText": "Discover More",
+        "marqueeText": "🎉 Flash Sale: Get 80% OFF all SnapGen Premium Tools! Limited time offer!",
+        "enabled": false
+      },
+      "support": {
+        "enabled": true,
+        "channels": [
+          {
+            "platform": "zalo",
+            "displayName": "Zalo",
+            "url": "https://zalo.me/g/qrimzl692",
+            "qrCode": "/images/qr-zalo.png",
+            "enabled": true,
+            "order": 1
+          },
+          {
+            "platform": "telegram",
+            "displayName": "Telegram",
+            "url": "https://t.me/+pob73D0nJ-QwMjhl",
+            "qrCode": "/images/qr-telegram.jpg",
+            "enabled": true,
+            "order": 2
+          },
+          {
+            "platform": "discord",
+            "displayName": "Discord",
+            "url": "https://discord.gg/5XUmXUMeuT",
+            "qrCode": "/images/qr-discord.png",
+            "enabled": false,
+            "order": 3
+          }
+        ]
+      },
+      "free": {
+        "badge": "100% Free Forever",
+        "description": "You're using SnapGen Flow completely free! Unlimited automation, no restrictions, all features included.",
+        "enabled": true
+      }
+    },
+    "tools": [
+      {
+        "name": "Auto Flow",
+        "description": "Prompt automator for Flow. Automate your workflow with ease.",
+        "icon": "Sparkles",
+        "color": "#8ab4f8",
+        "link": "https://snapgens.com/tools/auto-flow",
+        "badge": "popular",
+        "enabled": false
+      },
+      {
+        "name": "Auto Whisk",
+        "description": "Prompt automator for Whisk. Create visual content faster.",
+        "icon": "Sparkles",
+        "color": "#81c995",
+        "link": "https://snapgens.com/tools/auto-whisk",
+        "badge": "popular",
+        "enabled": false
+      },
+      {
+        "name": "Word & Character Counter",
+        "description": "A real-time word and character counter for all your writing needs.",
+        "icon": "Type",
+        "color": "#fdd663",
+        "link": "https://snapgens.com/tools/word-counter",
+        "enabled": false
+      },
+      {
+        "name": "Cookie Exporter",
+        "description": "Export website cookies with ease. Perfect for developers and testers.",
+        "icon": "Cookie",
+        "color": "#f28b82",
+        "link": "https://snapgens.com/tools/cookie-exporter",
+        "enabled": false
+      },
+      {
+        "name": "Image Optimizer Pro",
+        "description": "Compress and optimize images without losing quality. NEW!",
+        "icon": "Image",
+        "color": "#ff6b9d",
+        "link": "https://snapgens.com/tools/image-optimizer",
+        "badge": "new",
+        "enabled": false
+      },
+      {
+        "name": "JSON Formatter",
+        "description": "Format, validate, and beautify JSON data instantly.",
+        "icon": "FileJson",
+        "color": "#a8c7fa",
+        "link": "https://snapgens.com/tools/json-formatter",
+        "badge": "hot",
+        "enabled": false
+      }
+    ]
+  }
+  

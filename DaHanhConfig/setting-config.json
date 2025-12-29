@@ -258,7 +258,10 @@
     "NOTIFICATION_POPUP_XPATH": "//li[@data-sonner-toast and .//button[contains(text(), 'Đóng')] and not(.//a[contains(text(), 'Tải xuống')])]",
     "GRID_VIEW_BUTTON_XPATH": "(//button[@role='radio' and .//i[normalize-space(text())='grid_on']]) | (//button[.//i[normalize-space(.)='grid_view']])",
     "UPGRADE_VIDEO_CONTAINER_XPATH": "./ancestor::div[contains(@class, 'sc-ad287003-0')]",
-    "VIDEOS_XPATH": "//video[@src]"
+    "VIDEOS_XPATH": "//video[@src]",
+    "VIRTUOSO_SCROLLER_XPATH": "//div[@data-testid='virtuoso-scroller']",
+    "VIRTUOSO_GRID_ITEM_XPATH": "//div[contains(@class, 'virtuoso-grid-item') and @data-index='$INDEX']",
+    "UPLOADED_IMAGE_PREVIEW_XPATH": "//img[@alt and @src]"
   },
   "timingSettings": {
     "minInitialWait": 60,

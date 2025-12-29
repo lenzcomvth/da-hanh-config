@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "SnapGen Flow"
+  },
+  "extDescription": {
+    "message": "Automatiza la creación masiva de videos en Google Flow (Texto a Video e Imagen a Video)"
+  },
+  "tab_workspace": {
+    "message": "Espacio de trabajo"
+  },
+  "tab_logs": {
+    "message": "Registros"
+  },
+  "tab_settings": {
+    "message": "Configuración"
+  },
+  "tab_more_tools": {
+    "message": "Más Herramientas"
+  },
+  "mode_text_to_video": {
+    "message": "Texto a Video"
+  },
+  "mode_image_to_video": {
+    "message": "Imagen a Video"
+  },
+  "prompt_list_label": {
+    "message": "Lista de Prompts"
+  },
+  "import_from_file": {
+    "message": "Importar desde archivo (.txt)"
+  },
+  "button_start": {
+    "message": "Iniciar"
+  },
+  "button_stop": {
+    "message": "Detener"
+  },
+  "button_pause": {
+    "message": "Pausar"
+  },
+  "button_resume": {
+    "message": "Reanudar"
+  },
+  "status_ready": {
+    "message": "Listo"
+  },
+  "status_running": {
+    "message": "Ejecutando..."
+  },
+  "status_paused": {
+    "message": "En pausa"
+  },
+  "status_stopped": {
+    "message": "Detenido"
+  },
+  "settings_general": {
+    "message": "Configuración General"
+  },
+  "settings_download": {
+    "message": "Configuración de Descarga"
+  },
+  "videos_per_task": {
+    "message": "Videos por tarea:"
+  },
+  "start_from": {
+    "message": "Comenzar desde (Prompt/Imagen):"
+  },
+  "wait_time": {
+    "message": "Tiempo de espera de creación de video (seg):"
+  },
+  "model_label": {
+    "message": "Modelo (Opcional):"
+  },
+  "aspect_ratio_label": {
+    "message": "Relación (Recorte T2V & I2V):"
+  },
+  "language_label": {
+    "message": "Idioma:"
+  },
+  "auto_download_label": {
+    "message": "Descarga automática de videos:"
+  },
+  "configure_folder": {
+    "message": "Configurar carpeta"
+  },
+  "download_tip": {
+    "message": "Consejo: Desactiva 'Preguntar dónde guardar...' en la configuración de descarga de tu navegador para una descarga automática fluida."
+  },
+  "model_default": {
+    "message": "Predeterminado (Veo 3.1 - Rápido)"
+  },
+  "model_veo2_fast": {
+    "message": "Veo 2 - Rápido"
+  },
+  "model_veo3_quality": {
+    "message": "Veo 3.1 - Calidad"
+  },
+  "model_veo2_quality": {
+    "message": "Veo 2 - Calidad"
+  },
+  "model_veo3_fast": {
+    "message": "Veo 3.1 - Rápido"
+  },
+  "ratio_landscape": {
+    "message": "Paisaje (16:9)"
+  },
+  "ratio_portrait": {
+    "message": "Retrato (9:16)"
+  },
+  "mode_text_to_video_full": {
+    "message": "Texto a Video"
+  },
+  "mode_image_to_video_full": {
+    "message": "Imagen a Video"
+  },
+  "mode_images_full": {
+    "message": "Imágenes"
+  },
+  "sort_order_az": {
+    "message": "A-Z"
+  },
+  "sort_order_za": {
+    "message": "Z-A"
+  },
+  "sort_order_newest": {
+    "message": "Más reciente"
+  },
+  "sort_order_oldest": {
+    "message": "Más antiguo"
+  },
+  "detailed_log": {
+    "message": "Registro Detallado"
+  },
+  "failed_tasks": {
+    "message": "Tareas Fallidas ({count})"
+  },
+  "copy_failed_tasks": {
+    "message": "Copiar Prompts/Imágenes Fallidas"
+  },
+  "log_loading_selectors": {
+    "message": "Cargando selectores..."
+  },
+  "log_selectors_loaded": {
+    "message": "Selectores cargados exitosamente."
+  },
+  "log_selectors_failed": {
+    "message": "Fallo al cargar selectores."
+  },
+  "log_using_fallback_selectors": {
+    "message": "Usando selectores de respaldo."
+  },
+  "log_submit_success": {
+    "message": "Prompt #{index} enviado exitosamente."
+  },
+  "log_submit_fail": {
+    "message": "Fallo al enviar Prompt."
+  },
+  "log_policy_error_prompt": {
+    "message": "Error de política detectado para el prompt. Saltando..."
+  },
+  "log_policy_error_image": {
+    "message": "Error de política detectado para la imagen: {filename}. Saltando..."
+  },
+  "log_retry_task": {
+    "message": "Reintentando Prompt #{index} (Intento {retry}/5)..."
+  },
+  "log_skip_task": {
+    "message": "Saltando Prompt #{index} después de {maxRetry} reintentos."
+  },
+  "log_page_reload_fail": {
+    "message": "Fallo al recargar la página"
+  },
+  "log_settings_fail": {
+    "message": "Fallo al aplicar la configuración"
+  },
+  "log_scan_found_videos": {
+    "message": "Se encontraron {count} videos nuevos. Iniciando proceso de descarga..."
+  },
+  "log_download_request_sent": {
+    "message": "¡Nuevo video descargado!"
+  },
+  "log_download_request_failed": {
+    "message": "Fallo en la descarga de {filename}: {error}"
+  },
+  "log_final_scan_started": {
+    "message": "¡ENVÍO DE PROMPTS FINALIZADO! Esperando que los últimos videos terminen de generarse..."
+  },
+  "log_final_scan_stopped": {
+    "message": "✅ Automatización completada! Se enviaron {total} prompts exitosamente. Se descargaron {downloaded} videos. Escaneo finalizado."
+  },
+  "log_independent_scan_started": {
+    "message": "Escaneo independiente de videos iniciado (cada 5 segundos)."
+  },
+  "log_independent_scan_stopped": {
+    "message": "Escaneo independiente de videos detenido."
+  },
+  "log_images_sorted": {
+    "message": "Se ordenaron {count} imágenes por {order}."
+  },
+  "log_file_read_error": {
+    "message": "Fallo al leer el archivo: {filename}"
+  },
+  "select_images": {
+    "message": "Seleccionar Imágenes"
+  },
+  "selected_images": {
+    "message": "Seleccionado: {count}"
+  },
+  "sort_az": {
+    "message": "A-Z"
+  },
+  "sort_za": {
+    "message": "Z-A"
+  },
+  "sort_newest": {
+    "message": "Más reciente"
+  },
+  "sort_oldest": {
+    "message": "Más antiguo"
+  },
+  "donate_text": {
+    "message": "Invítame un café"
+  },
+  "author_info": {
+    "message": "por Your Name"
+  },
+  "wrong_page_warning": {
+    "message": "Por favor, navega a labs.google/fx/tools/flow para usar esta extensión."
+  },
+  "theme_label": {
+    "message": "Tema:"
+  },
+  "theme_vibrant_orange": {
+    "message": "Naranja Vibrante (Oscuro)"
+  },
+  "theme_sunset_gradient": {
+    "message": "Gradiente de Atardecer"
+  },
+  "theme_orange_purple": {
+    "message": "Naranja + Púrpura (Tecnológico)"
+  },
+  "theme_description_vibrant_orange": {
+    "message": "Tema oscuro moderno con acentos naranja vibrante"
+  },
+  "theme_description_sunset_gradient": {
+    "message": "Fondo de gradiente cálido con tonos coral"
+  },
+  "theme_description_orange_purple": {
+    "message": "Fondo púrpura oscuro con reflejos naranja y dorado"
+  },
+  "modal_title_image_prompt_editor": {
+    "message": "Gestionar Imágenes y Prompts"
+  },
+  "modal_search_placeholder": {
+    "message": "Buscar por nombre de imagen o prompt..."
+  },
+  "modal_import_prompts": {
+    "message": "Importar Prompts desde Archivo"
+  },
+  "modal_add_images": {
+    "message": "Añadir Imágenes"
+  },
+  "modal_delete_selected": {
+    "message": "Eliminar Seleccionados"
+  },
+  "modal_save_and_close": {
+    "message": "Guardar y Cerrar"
+  },
+  "modal_cancel": {
+    "message": "Cancelar"
+  },
+  "modal_column_number": {
+    "message": "Nro."
+  },
+  "modal_column_image": {
+    "message": "Imagen"
+  },
+  "modal_column_prompt": {
+    "message": "Prompt"
+  },
+  "modal_column_status": {
+    "message": "Estado"
+  },
+  "modal_status_needs_prompt": {
+    "message": "Necesita prompt"
+  },
+  "modal_status_ready": {
+    "message": "Listo"
+  },
+  "modal_prompt_placeholder": {
+    "message": "Introduce el prompt para esta imagen..."
+  },
+  "modal_no_images": {
+    "message": "Aún no hay imágenes. Haz clic en \"Añadir Imágenes\" para empezar."
+  },
+  "modal_no_results": {
+    "message": "No se encontraron imágenes coincidentes"
+  },
+  "modal_import_success": {
+    "message": "¡Se importaron {count} prompts exitosamente!"
+  },
+  "modal_import_error": {
+    "message": "Error al leer el archivo. Por favor, comprueba el formato del archivo."
+  },
+  "banner_free_title": {
+    "message": "Plan Gratuito"
+  },
+  "banner_free_description": {
+    "message": "¡Estás usando SnapGen Flow completamente gratis! Automatización ilimitada, sin restricciones, todas las funciones incluidas."
+  },
+  "banner_free_badge": {
+    "message": "100% Gratis Para Siempre"
+  },
+  "banner_promo_title": {
+    "message": "Oferta Especial"
+  },
+  "banner_promo_description": {
+    "message": "¡Explora nuestras otras herramientas y extensiones de SnapGen para aumentar tu productividad!"
+  },
+  "banner_promo_link": {
+    "message": "Descubre Más"
+  },
+  "banner_support_title": {
+    "message": "¿Necesitas ayuda?"
+  },
+  "banner_support_description": {
+    "message": "Nuestro equipo de soporte está listo para ayudarte. ¡Contáctanos por Zalo o Telegram para asistencia rápida!"
+  },
+  "banner_free_compact": {
+    "message": "👑 100% Gratis Para Siempre"
+  },
+  "banner_promo_marquee": {
+    "message": "¡Explora nuestras otras herramientas y extensiones de SnapGen para aumentar tu productividad!"
+  },
+  "banner_support_compact_line1": {
+    "message": "¿Necesitas ayuda?"
+  },
+  "banner_support_compact_line2": {
+    "message": "Zalo | Telegram"
+  },
+  "generation_settings": {
+    "message": "Configuración de Generación"
+  },
+  "label_model": {
+    "message": "Modelo"
+  },
+  "label_videos_per_prompt": {
+    "message": "Videos/prompt"
+  },
+  "desc_videos_per_prompt": {
+    "message": "Número de videos a generar por cada prompt"
+  },
+  "label_aspect_ratio": {
+    "message": "Relación de Aspecto"
+  },
+  "hint_prompt_prefix": {
+    "message": "Al hacer clic en Iniciar, cada línea se prefijará automáticamente con \"Prompt #n:\""
+  },
+  "label_progress": {
+    "message": "Progreso"
+  },
+  "advanced_settings": {
+    "message": "Configuración Avanzada"
+  },
+  "refresh_configuration_title": {
+    "message": "Actualizar Configuración"
+  },
+  "refresh_configuration_desc": {
+    "message": "Forzar la recarga de modelos, relaciones de aspecto y otras configuraciones dinámicas desde el servidor remoto. Úsalo si no ves las últimas actualizaciones."
+  },
+  "button_refresh": {
+    "message": "Actualizar"
+  },
+  "button_refreshing": {
+    "message": "Actualizando..."
+  },
+  "refreshing_message": {
+    "message": "⏳ Obteniendo la última configuración del servidor..."
+  },
+  "discover_other_tools": {
+    "message": "Descubrir Otras Herramientas"
+  },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - Rápido [Prioridad baja]"
+  }
+}

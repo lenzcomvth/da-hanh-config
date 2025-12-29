@@ -1,0 +1,20 @@
+[
+  {
+    "id": "auto_download",
+    "name": "Tự động tải video",
+    "description": "Tự động tải video về máy sau khi render hoàn tất",
+    "default": true
+  },
+  {
+    "id": "auto_clear",
+    "name": "Làm sạch Prompt",
+    "description": "Xóa nội dung prompt cũ sau khi gửi lệnh thành công",
+    "default": false
+  },
+  {
+    "id": "quality_mode",
+    "name": "Ưu tiên Veo 3.1",
+    "description": "Luôn ưu tiên sử dụng model Veo 3.1 Quality Mode",
+    "default": true
+  }
+]

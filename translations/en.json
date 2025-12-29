@@ -1,0 +1,413 @@
+{
+  "extName": {
+    "message": "Dạ Hành Flow"
+  },
+  "extDescription": {
+    "message": "Automate bulk video creation on Google Flow (Dạ Hành Flow Automation)"
+  },
+  "tab_workspace": {
+    "message": "Workspace"
+  },
+  "tab_logs": {
+    "message": "Logs"
+  },
+  "tab_settings": {
+    "message": "Settings"
+  },
+  "tab_more_tools": {
+    "message": "More Tools"
+  },
+  "tab_resources": {
+    "message": "Resources"
+  },
+  "resources_description": {
+    "message": "Helpful guides, tutorials, and tools to enhance your experience"
+  },
+  "resources_docs_title": {
+    "message": "Documentation & Guides"
+  },
+  "resources_videos_title": {
+    "message": "Video Tutorials"
+  },
+  "resources_tools_title": {
+    "message": "Helpful Tools"
+  },
+  "resources_loading": {
+    "message": "Loading resources..."
+  },
+  "resources_empty_title": {
+    "message": "No resources available at the moment."
+  },
+  "resources_empty_subtitle": {
+    "message": "Check back later for updates!"
+  },
+  "resources_doc_github": {
+    "message": "📖 GitHub Documentation"
+  },
+  "mode_text_to_video": {
+    "message": "Text-to-Video"
+  },
+  "mode_image_to_video": {
+    "message": "Image-to-Video"
+  },
+  "prompt_list_label": {
+    "message": "Prompt List"
+  },
+  "import_from_file": {
+    "message": "Import from file (.txt)"
+  },
+  "button_start": {
+    "message": "Start"
+  },
+  "button_stop": {
+    "message": "Stop"
+  },
+  "button_pause": {
+    "message": "Pause"
+  },
+  "button_resume": {
+    "message": "Resume"
+  },
+  "status_ready": {
+    "message": "Ready"
+  },
+  "status_running": {
+    "message": "Running..."
+  },
+  "status_paused": {
+    "message": "Paused"
+  },
+  "status_stopped": {
+    "message": "Stopped"
+  },
+  "settings_general": {
+    "message": "General Settings"
+  },
+  "settings_download": {
+    "message": "Download Settings"
+  },
+  "videos_per_task": {
+    "message": "Videos per task:"
+  },
+  "start_from": {
+    "message": "Start from (Prompt/Image):"
+  },
+  "wait_time": {
+    "message": "Video creation wait time (sec):"
+  },
+  "model_label": {
+    "message": "Model (Optional):"
+  },
+  "aspect_ratio_label": {
+    "message": "Ratio (T2V & I2V Crop):"
+  },
+  "language_label": {
+    "message": "Language:"
+  },
+  "auto_download_label": {
+    "message": "Auto-download videos:"
+  },
+  "configure_folder": {
+    "message": "Configure folder"
+  },
+  "download_tip": {
+    "message": "Tip: Turn off 'Ask where to save...' in your browser's download settings for seamless auto-downloading."
+  },
+  "model_default": {
+    "message": "Default (Veo 3.1 - Fast)"
+  },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - Fast [Lower Priority]"
+  },
+  "model_veo2_fast": {
+    "message": "Veo 2 - Fast"
+  },
+  "model_veo3_quality": {
+    "message": "Veo 3.1 - Quality"
+  },
+  "model_veo2_quality": {
+    "message": "Veo 2 - Quality"
+  },
+  "model_veo3_fast": {
+    "message": "Veo 3.1 - Fast"
+  },
+  "ratio_landscape": {
+    "message": "Landscape (16:9)"
+  },
+  "ratio_portrait": {
+    "message": "Portrait (9:16)"
+  },
+  "mode_text_to_video_full": {
+    "message": "Text to Video"
+  },
+  "mode_image_to_video_full": {
+    "message": "Image to Video"
+  },
+  "mode_images_full": {
+    "message": "Images"
+  },
+  "sort_order_az": {
+    "message": "A-Z"
+  },
+  "sort_order_za": {
+    "message": "Z-A"
+  },
+  "sort_order_newest": {
+    "message": "Newest"
+  },
+  "sort_order_oldest": {
+    "message": "Oldest"
+  },
+  "detailed_log": {
+    "message": "Detailed Log"
+  },
+  "failed_tasks": {
+    "message": "Failed Tasks ({count})"
+  },
+  "copy_failed_tasks": {
+    "message": "Copy Failed Prompts/Images"
+  },
+  "log_loading_selectors": {
+    "message": "Loading selectors..."
+  },
+  "log_selectors_loaded": {
+    "message": "Selectors loaded successfully."
+  },
+  "log_selectors_failed": {
+    "message": "Failed to load selectors."
+  },
+  "log_using_fallback_selectors": {
+    "message": "Using fallback selectors."
+  },
+  "log_submit_success": {
+    "message": "Successfully submitted Prompt #{index}."
+  },
+  "log_submit_fail": {
+    "message": "Failed to submit Prompt."
+  },
+  "log_policy_error_prompt": {
+    "message": "Policy error detected for prompt. Skipping..."
+  },
+  "log_policy_error_image": {
+    "message": "Policy error detected for image: {filename}. Skipping..."
+  },
+  "log_retry_task": {
+    "message": "Retrying Prompt #{index} (Retry {retry}/5)..."
+  },
+  "log_skip_task": {
+    "message": "Skipping Prompt #{index} after {maxRetry} retries."
+  },
+  "log_page_reload_fail": {
+    "message": "Failed to reload page"
+  },
+  "log_settings_fail": {
+    "message": "Failed to apply settings"
+  },
+  "log_scan_found_videos": {
+    "message": "Found {count} new videos. Starting download process..."
+  },
+  "log_download_request_sent": {
+    "message": "New video downloaded!"
+  },
+  "log_download_request_failed": {
+    "message": "Download failed for {filename}: {error}"
+  },
+  "log_final_scan_started": {
+    "message": "FINISHED SENDING PROMPTS! Waiting for last videos to complete generation..."
+  },
+  "log_final_scan_stopped": {
+    "message": "✅ Automation completed! Submitted {total} prompts successfully. Downloaded {downloaded} videos. Final scan finished."
+  },
+  "log_independent_scan_started": {
+    "message": "Independent video scanning started (every 5 seconds)."
+  },
+  "log_independent_scan_stopped": {
+    "message": "Stopped independent video scanning."
+  },
+  "log_images_sorted": {
+    "message": "Sorted {count} images by {order}."
+  },
+  "log_file_read_error": {
+    "message": "Failed to read file: {filename}"
+  },
+  "select_images": {
+    "message": "Select Images"
+  },
+  "selected_images": {
+    "message": "Selected: {count}"
+  },
+  "sort_az": {
+    "message": "A-Z"
+  },
+  "sort_za": {
+    "message": "Z-A"
+  },
+  "sort_newest": {
+    "message": "Newest"
+  },
+  "sort_oldest": {
+    "message": "Oldest"
+  },
+  "donate_text": {
+    "message": "Buy Me a Coffee"
+  },
+  "author_info": {
+    "message": "Developed with ❤️ by Dạ Hành Studio"
+  },
+  "wrong_page_warning": {
+    "message": "Please navigate to labs.google/fx/tools/flow to use this extension."
+  },
+  "theme_label": {
+    "message": "Theme:"
+  },
+  "theme_vibrant_orange": {
+    "message": "Vibrant Orange (Dark)"
+  },
+  "theme_sunset_gradient": {
+    "message": "Sunset Gradient"
+  },
+  "theme_orange_purple": {
+    "message": "Orange + Purple (Techy)"
+  },
+  "theme_description_vibrant_orange": {
+    "message": "Modern dark theme with vibrant orange accents"
+  },
+  "theme_description_sunset_gradient": {
+    "message": "Warm gradient background with coral tones"
+  },
+  "theme_description_orange_purple": {
+    "message": "Dark purple background with orange and gold highlights"
+  },
+  "modal_title_image_prompt_editor": {
+    "message": "Manage Images and Prompts"
+  },
+  "modal_search_placeholder": {
+    "message": "Search by image name or prompt..."
+  },
+  "modal_import_prompts": {
+    "message": "Import Prompts from File"
+  },
+  "modal_add_images": {
+    "message": "Add Images"
+  },
+  "modal_delete_selected": {
+    "message": "Delete Selected"
+  },
+  "modal_save_and_close": {
+    "message": "Save and Close"
+  },
+  "modal_cancel": {
+    "message": "Cancel"
+  },
+  "modal_column_number": {
+    "message": "No."
+  },
+  "modal_column_image": {
+    "message": "Image"
+  },
+  "modal_column_prompt": {
+    "message": "Prompt"
+  },
+  "modal_column_status": {
+    "message": "Status"
+  },
+  "modal_status_needs_prompt": {
+    "message": "Needs prompt"
+  },
+  "modal_status_ready": {
+    "message": "Ready"
+  },
+  "modal_prompt_placeholder": {
+    "message": "Enter prompt for this image..."
+  },
+  "modal_no_images": {
+    "message": "No images yet. Click \"Add Images\" to get started."
+  },
+  "modal_no_results": {
+    "message": "No matching images found"
+  },
+  "modal_import_success": {
+    "message": "Successfully imported {count} prompts!"
+  },
+  "modal_import_error": {
+    "message": "Error reading file. Please check the file format."
+  },
+  "banner_free_title": {
+    "message": "Free Plan"
+  },
+  "banner_free_description": {
+    "message": "You're using Dạ Hành Flow completely free! Unlimited automation, all features included."
+  },
+  "banner_free_badge": {
+    "message": "100% Free Forever"
+  },
+  "banner_promo_title": {
+    "message": "Special Offer"
+  },
+  "banner_promo_description": {
+    "message": "Explore our other SnapGen tools and extensions to boost your productivity!"
+  },
+  "banner_promo_link": {
+    "message": "Discover More"
+  },
+  "banner_support_title": {
+    "message": "Need Help?"
+  },
+  "banner_support_description": {
+    "message": "Our support team is ready to help you. Contact us via Zalo or Telegram for quick assistance!"
+  },
+  "banner_free_compact": {
+    "message": "👑 100% Free Forever"
+  },
+  "banner_promo_marquee": {
+    "message": "Explore more powerful tools in the Dạ Hành Studio ecosystem today!"
+  },
+  "banner_support_compact_line1": {
+    "message": "Need Help?"
+  },
+  "banner_support_compact_line2": {
+    "message": "Zalo | Telegram"
+  },
+  "generation_settings": {
+    "message": "Generation Settings"
+  },
+  "label_model": {
+    "message": "Model"
+  },
+  "label_videos_per_prompt": {
+    "message": "Videos/prompt"
+  },
+  "desc_videos_per_prompt": {
+    "message": "Number of videos to generate for each prompt"
+  },
+  "label_aspect_ratio": {
+    "message": "Aspect Ratio"
+  },
+  "hint_prompt_prefix": {
+    "message": "When you click Start, each line will automatically be prefixed with \"Prompt #n:\""
+  },
+  "label_progress": {
+    "message": "Progress"
+  },
+  "advanced_settings": {
+    "message": "Advanced Settings"
+  },
+  "refresh_configuration_title": {
+    "message": "Refresh Configuration"
+  },
+  "refresh_configuration_desc": {
+    "message": "Force reload models, aspect ratios, and other dynamic settings from remote server. Use this if you don't see the latest updates."
+  },
+  "button_refresh": {
+    "message": "Refresh"
+  },
+  "button_refreshing": {
+    "message": "Refreshing..."
+  },
+  "refreshing_message": {
+    "message": "⏳ Fetching latest config from server..."
+  },
+  "discover_other_tools": {
+    "message": "Discover Other Tools"
+  }
+}

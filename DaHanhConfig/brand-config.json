@@ -1,0 +1,16 @@
+{
+  "brand": {
+    "name": "Dạ Hành Studio",
+    "logo_url": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/unnamed.jpg",
+    "social": {
+      "facebook": {
+        "icon": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/fb.PNG",
+        "url": "https://facebook.com/lenzc0m"
+      },
+      "zalo": {
+        "icon": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/zalo.png",
+        "url": "https://zalo.me/your-number"
+      }
+    }
+  }
+}

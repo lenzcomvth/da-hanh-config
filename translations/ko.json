@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "SnapGen Flow"
+  },
+  "extDescription": {
+    "message": "Google Flow에서 대량 동영상 제작 자동화 (텍스트-투-비디오 & 이미지-투-비디오)"
+  },
+  "tab_workspace": {
+    "message": "작업 공간"
+  },
+  "tab_logs": {
+    "message": "로그"
+  },
+  "tab_settings": {
+    "message": "설정"
+  },
+  "tab_more_tools": {
+    "message": "더 많은 도구"
+  },
+  "mode_text_to_video": {
+    "message": "텍스트-투-비디오"
+  },
+  "mode_image_to_video": {
+    "message": "이미지-투-비디오"
+  },
+  "prompt_list_label": {
+    "message": "프롬프트 목록"
+  },
+  "import_from_file": {
+    "message": "파일에서 가져오기 (.txt)"
+  },
+  "button_start": {
+    "message": "시작"
+  },
+  "button_stop": {
+    "message": "중지"
+  },
+  "button_pause": {
+    "message": "일시 중지"
+  },
+  "button_resume": {
+    "message": "재개"
+  },
+  "status_ready": {
+    "message": "준비 완료"
+  },
+  "status_running": {
+    "message": "실행 중..."
+  },
+  "status_paused": {
+    "message": "일시 중지됨"
+  },
+  "status_stopped": {
+    "message": "중지됨"
+  },
+  "settings_general": {
+    "message": "일반 설정"
+  },
+  "settings_download": {
+    "message": "다운로드 설정"
+  },
+  "videos_per_task": {
+    "message": "작업당 동영상 수:"
+  },
+  "start_from": {
+    "message": "시작 위치 (프롬프트/이미지):"
+  },
+  "wait_time": {
+    "message": "동영상 생성 대기 시간 (초):"
+  },
+  "model_label": {
+    "message": "모델 (선택 사항):"
+  },
+  "aspect_ratio_label": {
+    "message": "비율 (T2V & I2V 자르기):"
+  },
+  "language_label": {
+    "message": "언어:"
+  },
+  "auto_download_label": {
+    "message": "동영상 자동 다운로드:"
+  },
+  "configure_folder": {
+    "message": "폴더 구성"
+  },
+  "download_tip": {
+    "message": "팁: 원활한 자동 다운로드를 위해 브라우저의 다운로드 설정에서 '저장 위치 묻기...'를 끄세요."
+  },
+  "model_default": {
+    "message": "기본값 (Veo 3.1 - 빠름)"
+  },
+  "model_veo2_fast": {
+    "message": "Veo 2 - 빠름"
+  },
+  "model_veo3_quality": {
+    "message": "Veo 3.1 - 품질"
+  },
+  "model_veo2_quality": {
+    "message": "Veo 2 - 품질"
+  },
+  "model_veo3_fast": {
+    "message": "Veo 3.1 - 빠름"
+  },
+  "ratio_landscape": {
+    "message": "가로 (16:9)"
+  },
+  "ratio_portrait": {
+    "message": "세로 (9:16)"
+  },
+  "mode_text_to_video_full": {
+    "message": "텍스트-투-비디오"
+  },
+  "mode_image_to_video_full": {
+    "message": "이미지-투-비디오"
+  },
+  "mode_images_full": {
+    "message": "이미지"
+  },
+  "sort_order_az": {
+    "message": "A-Z"
+  },
+  "sort_order_za": {
+    "message": "Z-A"
+  },
+  "sort_order_newest": {
+    "message": "최신순"
+  },
+  "sort_order_oldest": {
+    "message": "오래된순"
+  },
+  "detailed_log": {
+    "message": "상세 로그"
+  },
+  "failed_tasks": {
+    "message": "실패한 작업 ({count})"
+  },
+  "copy_failed_tasks": {
+    "message": "실패한 프롬프트/이미지 복사"
+  },
+  "log_loading_selectors": {
+    "message": "선택자 로드 중..."
+  },
+  "log_selectors_loaded": {
+    "message": "선택자를 성공적으로 로드했습니다."
+  },
+  "log_selectors_failed": {
+    "message": "선택자 로드에 실패했습니다."
+  },
+  "log_using_fallback_selectors": {
+    "message": "대체 선택자를 사용하고 있습니다."
+  },
+  "log_submit_success": {
+    "message": "프롬프트 #{index}를 성공적으로 제출했습니다."
+  },
+  "log_submit_fail": {
+    "message": "프롬프트 제출에 실패했습니다."
+  },
+  "log_policy_error_prompt": {
+    "message": "프롬프트에서 정책 오류가 감지되었습니다. 건너뛰는 중..."
+  },
+  "log_policy_error_image": {
+    "message": "이미지: {filename}에서 정책 오류가 감지되었습니다. 건너뛰는 중..."
+  },
+  "log_retry_task": {
+    "message": "프롬프트 #{index} 재시도 중 (재시도 {retry}/5)..."
+  },
+  "log_skip_task": {
+    "message": "{maxRetry}회 재시도 후 프롬프트 #{index}를 건너뜁니다."
+  },
+  "log_page_reload_fail": {
+    "message": "페이지 새로고침 실패"
+  },
+  "log_settings_fail": {
+    "message": "설정 적용 실패"
+  },
+  "log_scan_found_videos": {
+    "message": "{count}개의 새 동영상을 찾았습니다. 다운로드 프로세스를 시작합니다..."
+  },
+  "log_download_request_sent": {
+    "message": "새 동영상이 다운로드되었습니다!"
+  },
+  "log_download_request_failed": {
+    "message": "{filename} 다운로드 실패: {error}"
+  },
+  "log_final_scan_started": {
+    "message": "프롬프트 전송 완료! 마지막 동영상 생성이 완료될 때까지 기다리는 중..."
+  },
+  "log_final_scan_stopped": {
+    "message": "✅ 자동화가 완료되었습니다! 총 {total}개의 프롬프트를 성공적으로 제출했습니다. {downloaded}개의 동영상을 다운로드했습니다. 최종 스캔이 완료되었습니다."
+  },
+  "log_independent_scan_started": {
+    "message": "독립 동영상 스캔 시작됨 (5초마다)."
+  },
+  "log_independent_scan_stopped": {
+    "message": "독립 동영상 스캔 중지됨."
+  },
+  "log_images_sorted": {
+    "message": "{count}개의 이미지를 {order} 순서로 정렬했습니다."
+  },
+  "log_file_read_error": {
+    "message": "파일 읽기 실패: {filename}"
+  },
+  "select_images": {
+    "message": "이미지 선택"
+  },
+  "selected_images": {
+    "message": "선택됨: {count}"
+  },
+  "sort_az": {
+    "message": "A-Z"
+  },
+  "sort_za": {
+    "message": "Z-A"
+  },
+  "sort_newest": {
+    "message": "최신순"
+  },
+  "sort_oldest": {
+    "message": "오래된순"
+  },
+  "donate_text": {
+    "message": "커피 한 잔 사주기"
+  },
+  "author_info": {
+    "message": "제작: Your Name"
+  },
+  "wrong_page_warning": {
+    "message": "이 확장 프로그램을 사용하려면 labs.google/fx/tools/flow로 이동하십시오."
+  },
+  "theme_label": {
+    "message": "테마:"
+  },
+  "theme_vibrant_orange": {
+    "message": "선명한 주황색 (다크)"
+  },
+  "theme_sunset_gradient": {
+    "message": "일몰 그라데이션"
+  },
+  "theme_orange_purple": {
+    "message": "주황색 + 보라색 (기술적)"
+  },
+  "theme_description_vibrant_orange": {
+    "message": "선명한 주황색 악센트가 있는 모던한 다크 테마"
+  },
+  "theme_description_sunset_gradient": {
+    "message": "코랄 톤의 따뜻한 그라데이션 배경"
+  },
+  "theme_description_orange_purple": {
+    "message": "주황색과 금색 하이라이트가 있는 어두운 보라색 배경"
+  },
+  "modal_title_image_prompt_editor": {
+    "message": "이미지 및 프롬프트 관리"
+  },
+  "modal_search_placeholder": {
+    "message": "이미지 이름 또는 프롬프트로 검색..."
+  },
+  "modal_import_prompts": {
+    "message": "파일에서 프롬프트 가져오기"
+  },
+  "modal_add_images": {
+    "message": "이미지 추가"
+  },
+  "modal_delete_selected": {
+    "message": "선택 항목 삭제"
+  },
+  "modal_save_and_close": {
+    "message": "저장 및 닫기"
+  },
+  "modal_cancel": {
+    "message": "취소"
+  },
+  "modal_column_number": {
+    "message": "번호"
+  },
+  "modal_column_image": {
+    "message": "이미지"
+  },
+  "modal_column_prompt": {
+    "message": "프롬프트"
+  },
+  "modal_column_status": {
+    "message": "상태"
+  },
+  "modal_status_needs_prompt": {
+    "message": "프롬프트 필요"
+  },
+  "modal_status_ready": {
+    "message": "준비 완료"
+  },
+  "modal_prompt_placeholder": {
+    "message": "이 이미지에 대한 프롬프트를 입력..."
+  },
+  "modal_no_images": {
+    "message": "아직 이미지가 없습니다. '이미지 추가'를 클릭하여 시작하세요."
+  },
+  "modal_no_results": {
+    "message": "일치하는 이미지를 찾을 수 없습니다"
+  },
+  "modal_import_success": {
+    "message": "{count}개의 프롬프트를 성공적으로 가져왔습니다!"
+  },
+  "modal_import_error": {
+    "message": "파일 읽기 오류. 파일 형식을 확인하십시오."
+  },
+  "banner_free_title": {
+    "message": "무료 플랜"
+  },
+  "banner_free_description": {
+    "message": "SnapGen Flow를 완전히 무료로 사용 중입니다! 무제한 자동화, 제한 없음, 모든 기능 포함."
+  },
+  "banner_free_badge": {
+    "message": "100% 평생 무료"
+  },
+  "banner_promo_title": {
+    "message": "특별 제안"
+  },
+  "banner_promo_description": {
+    "message": "생산성을 높일 수 있는 다른 SnapGen 도구 및 확장 프로그램을 살펴보세요!"
+  },
+  "banner_promo_link": {
+    "message": "더 많은 것을 발견하세요"
+  },
+  "banner_support_title": {
+    "message": "도움이 필요하세요?"
+  },
+  "banner_support_description": {
+    "message": "저희 지원팀이 도움을 드릴 준비가 되어 있습니다. 빠른 지원을 위해 Zalo 또는 Telegram을 통해 문의하십시오!"
+  },
+  "banner_free_compact": {
+    "message": "👑 100% 평생 무료"
+  },
+  "banner_promo_marquee": {
+    "message": "생산성을 높일 수 있는 다른 SnapGen 도구 및 확장 프로그램을 살펴보세요!"
+  },
+  "banner_support_compact_line1": {
+    "message": "도움이 필요하세요?"
+  },
+  "banner_support_compact_line2": {
+    "message": "Zalo | Telegram"
+  },
+  "generation_settings": {
+    "message": "생성 설정"
+  },
+  "label_model": {
+    "message": "모델"
+  },
+  "label_videos_per_prompt": {
+    "message": "동영상 수/프롬프트"
+  },
+  "desc_videos_per_prompt": {
+    "message": "각 프롬프트에 대해 생성할 동영상 수"
+  },
+  "label_aspect_ratio": {
+    "message": "가로 세로 비율"
+  },
+  "hint_prompt_prefix": {
+    "message": "시작을 클릭하면 각 줄 앞에 자동으로 \"Prompt #n:\"이 추가됩니다"
+  },
+  "label_progress": {
+    "message": "진행률"
+  },
+  "advanced_settings": {
+    "message": "고급 설정"
+  },
+  "refresh_configuration_title": {
+    "message": "구성 새로 고침"
+  },
+  "refresh_configuration_desc": {
+    "message": "원격 서버에서 모델, 가로 세로 비율 및 기타 동적 설정을 강제로 다시 로드합니다. 최신 업데이트가 보이지 않을 때 사용하십시오."
+  },
+  "button_refresh": {
+    "message": "새로 고침"
+  },
+  "button_refreshing": {
+    "message": "새로 고침 중..."
+  },
+  "refreshing_message": {
+    "message": "⏳ 서버에서 최신 구성 가져오는 중..."
+  },
+  "discover_other_tools": {
+    "message": "다른 도구 발견"
+  },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - 빠름 [낮은 우선순위]"
+  }
+}
