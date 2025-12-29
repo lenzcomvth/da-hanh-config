@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "SnapGen Flow"
+  },
+  "extDescription": {
+    "message": "Google Flowでの一括動画作成を自動化（テキストから動画、画像から動画へ）"
+  },
+  "tab_workspace": {
+    "message": "ワークスペース"
+  },
+  "tab_logs": {
+    "message": "ログ"
+  },
+  "tab_settings": {
+    "message": "設定"
+  },
+  "tab_more_tools": {
+    "message": "その他のツール"
+  },
+  "mode_text_to_video": {
+    "message": "テキストから動画"
+  },
+  "mode_image_to_video": {
+    "message": "画像から動画"
+  },
+  "prompt_list_label": {
+    "message": "プロンプトリスト"
+  },
+  "import_from_file": {
+    "message": "ファイルからインポート (.txt)"
+  },
+  "button_start": {
+    "message": "開始"
+  },
+  "button_stop": {
+    "message": "停止"
+  },
+  "button_pause": {
+    "message": "一時停止"
+  },
+  "button_resume": {
+    "message": "再開"
+  },
+  "status_ready": {
+    "message": "準備完了"
+  },
+  "status_running": {
+    "message": "実行中..."
+  },
+  "status_paused": {
+    "message": "一時停止中"
+  },
+  "status_stopped": {
+    "message": "停止済み"
+  },
+  "settings_general": {
+    "message": "一般設定"
+  },
+  "settings_download": {
+    "message": "ダウンロード設定"
+  },
+  "videos_per_task": {
+    "message": "タスクごとの動画数:"
+  },
+  "start_from": {
+    "message": "開始位置（プロンプト/画像）:"
+  },
+  "wait_time": {
+    "message": "動画作成の待機時間（秒）:"
+  },
+  "model_label": {
+    "message": "モデル（オプション）:"
+  },
+  "aspect_ratio_label": {
+    "message": "比率（T2V & I2Vクロップ）:"
+  },
+  "language_label": {
+    "message": "言語:"
+  },
+  "auto_download_label": {
+    "message": "動画の自動ダウンロード:"
+  },
+  "configure_folder": {
+    "message": "フォルダを設定"
+  },
+  "download_tip": {
+    "message": "ヒント: シームレスな自動ダウンロードのために、ブラウザのダウンロード設定で「保存する場所を尋ねる」をオフにしてください。"
+  },
+  "model_default": {
+    "message": "デフォルト (Veo 3.1 - 高速)"
+  },
+  "model_veo2_fast": {
+    "message": "Veo 2 - 高速"
+  },
+  "model_veo3_quality": {
+    "message": "Veo 3.1 - 品質"
+  },
+  "model_veo2_quality": {
+    "message": "Veo 2 - 品質"
+  },
+  "model_veo3_fast": {
+    "message": "Veo 3.1 - 高速"
+  },
+  "ratio_landscape": {
+    "message": "横長 (16:9)"
+  },
+  "ratio_portrait": {
+    "message": "縦長 (9:16)"
+  },
+  "mode_text_to_video_full": {
+    "message": "テキストから動画"
+  },
+  "mode_image_to_video_full": {
+    "message": "画像から動画"
+  },
+  "mode_images_full": {
+    "message": "画像"
+  },
+  "sort_order_az": {
+    "message": "A-Z"
+  },
+  "sort_order_za": {
+    "message": "Z-A"
+  },
+  "sort_order_newest": {
+    "message": "新しい順"
+  },
+  "sort_order_oldest": {
+    "message": "古い順"
+  },
+  "detailed_log": {
+    "message": "詳細ログ"
+  },
+  "failed_tasks": {
+    "message": "失敗したタスク ({count})"
+  },
+  "copy_failed_tasks": {
+    "message": "失敗したプロンプト/画像をコピー"
+  },
+  "log_loading_selectors": {
+    "message": "セレクターをロード中..."
+  },
+  "log_selectors_loaded": {
+    "message": "セレクターのロードに成功しました。"
+  },
+  "log_selectors_failed": {
+    "message": "セレクターのロードに失敗しました。"
+  },
+  "log_using_fallback_selectors": {
+    "message": "フォールバックセレクターを使用しています。"
+  },
+  "log_submit_success": {
+    "message": "プロンプト #{index} の送信に成功しました。"
+  },
+  "log_submit_fail": {
+    "message": "プロンプトの送信に失敗しました。"
+  },
+  "log_policy_error_prompt": {
+    "message": "プロンプトでポリシーエラーが検出されました。スキップします..."
+  },
+  "log_policy_error_image": {
+    "message": "画像: {filename} でポリシーエラーが検出されました。スキップします..."
+  },
+  "log_retry_task": {
+    "message": "プロンプト #{index} を再試行中（再試行 {retry}/5）..."
+  },
+  "log_skip_task": {
+    "message": "{maxRetry} 回の再試行後、プロンプト #{index} をスキップします。"
+  },
+  "log_page_reload_fail": {
+    "message": "ページの再読み込みに失敗しました"
+  },
+  "log_settings_fail": {
+    "message": "設定の適用に失敗しました"
+  },
+  "log_scan_found_videos": {
+    "message": "{count} 個の新しい動画が見つかりました。ダウンロードプロセスを開始します..."
+  },
+  "log_download_request_sent": {
+    "message": "新しい動画がダウンロードされました！"
+  },
+  "log_download_request_failed": {
+    "message": "{filename} のダウンロードに失敗しました: {error}"
+  },
+  "log_final_scan_started": {
+    "message": "プロンプトの送信が完了しました！最後の動画が生成完了するのを待っています..."
+  },
+  "log_final_scan_stopped": {
+    "message": "✅ 自動化が完了しました！合計 {total} 個のプロンプトを正常に送信しました。{downloaded} 個の動画をダウンロードしました。最終スキャンが終了しました。"
+  },
+  "log_independent_scan_started": {
+    "message": "独立した動画スキャンを開始しました（5秒ごと）。"
+  },
+  "log_independent_scan_stopped": {
+    "message": "独立した動画スキャンを停止しました。"
+  },
+  "log_images_sorted": {
+    "message": "{count} 枚の画像を {order} でソートしました。"
+  },
+  "log_file_read_error": {
+    "message": "ファイルの読み取りに失敗しました: {filename}"
+  },
+  "select_images": {
+    "message": "画像を選択"
+  },
+  "selected_images": {
+    "message": "選択済み: {count}"
+  },
+  "sort_az": {
+    "message": "A-Z"
+  },
+  "sort_za": {
+    "message": "Z-A"
+  },
+  "sort_newest": {
+    "message": "新しい順"
+  },
+  "sort_oldest": {
+    "message": "古い順"
+  },
+  "donate_text": {
+    "message": "コーヒーを奢る"
+  },
+  "author_info": {
+    "message": "作成者: Your Name"
+  },
+  "wrong_page_warning": {
+    "message": "この拡張機能を使用するには、labs.google/fx/tools/flow に移動してください。"
+  },
+  "theme_label": {
+    "message": "テーマ:"
+  },
+  "theme_vibrant_orange": {
+    "message": "鮮やかなオレンジ（ダーク）"
+  },
+  "theme_sunset_gradient": {
+    "message": "サンセットグラデーション"
+  },
+  "theme_orange_purple": {
+    "message": "オレンジ + パープル（技術系）"
+  },
+  "theme_description_vibrant_orange": {
+    "message": "鮮やかなオレンジのアクセントが付いたモダンなダークテーマ"
+  },
+  "theme_description_sunset_gradient": {
+    "message": "コーラルトーンの温かいグラデーション背景"
+  },
+  "theme_description_orange_purple": {
+    "message": "オレンジとゴールドのハイライトが付いたダークパープル背景"
+  },
+  "modal_title_image_prompt_editor": {
+    "message": "画像とプロンプトの管理"
+  },
+  "modal_search_placeholder": {
+    "message": "画像名またはプロンプトで検索..."
+  },
+  "modal_import_prompts": {
+    "message": "ファイルからプロンプトをインポート"
+  },
+  "modal_add_images": {
+    "message": "画像を追加"
+  },
+  "modal_delete_selected": {
+    "message": "選択したものを削除"
+  },
+  "modal_save_and_close": {
+    "message": "保存して閉じる"
+  },
+  "modal_cancel": {
+    "message": "キャンセル"
+  },
+  "modal_column_number": {
+    "message": "番号"
+  },
+  "modal_column_image": {
+    "message": "画像"
+  },
+  "modal_column_prompt": {
+    "message": "プロンプト"
+  },
+  "modal_column_status": {
+    "message": "ステータス"
+  },
+  "modal_status_needs_prompt": {
+    "message": "プロンプトが必要"
+  },
+  "modal_status_ready": {
+    "message": "準備完了"
+  },
+  "modal_prompt_placeholder": {
+    "message": "この画像用のプロンプトを入力..."
+  },
+  "modal_no_images": {
+    "message": "画像がまだありません。「画像を追加」をクリックして開始してください。"
+  },
+  "modal_no_results": {
+    "message": "一致する画像が見つかりませんでした"
+  },
+  "modal_import_success": {
+    "message": "{count} 個のプロンプトを正常にインポートしました！"
+  },
+  "modal_import_error": {
+    "message": "ファイルの読み取りエラー。ファイル形式を確認してください。"
+  },
+  "banner_free_title": {
+    "message": "無料プラン"
+  },
+  "banner_free_description": {
+    "message": "SnapGen Flowを完全に無料でご利用いただけます！無制限の自動化、制限なし、すべての機能が含まれています。"
+  },
+  "banner_free_badge": {
+    "message": "永久に100%無料"
+  },
+  "banner_promo_title": {
+    "message": "特別オファー"
+  },
+  "banner_promo_description": {
+    "message": "生産性を向上させるために、他のSnapGenツールや拡張機能を試してみてください！"
+  },
+  "banner_promo_link": {
+    "message": "さらに発見"
+  },
+  "banner_support_title": {
+    "message": "ヘルプが必要ですか？"
+  },
+  "banner_support_description": {
+    "message": "当社のサポートチームがお手伝いします。迅速なサポートが必要な場合は、ZaloまたはTelegram経由でご連絡ください！"
+  },
+  "banner_free_compact": {
+    "message": "👑 永久に100%無料"
+  },
+  "banner_promo_marquee": {
+    "message": "生産性を向上させるために、他のSnapGenツールや拡張機能を試してみてください！"
+  },
+  "banner_support_compact_line1": {
+    "message": "ヘルプが必要ですか？"
+  },
+  "banner_support_compact_line2": {
+    "message": "Zalo | Telegram"
+  },
+  "generation_settings": {
+    "message": "生成設定"
+  },
+  "label_model": {
+    "message": "モデル"
+  },
+  "label_videos_per_prompt": {
+    "message": "動画数/プロンプト"
+  },
+  "desc_videos_per_prompt": {
+    "message": "各プロンプトに対して生成する動画の数"
+  },
+  "label_aspect_ratio": {
+    "message": "アスペクト比"
+  },
+  "hint_prompt_prefix": {
+    "message": "「開始」をクリックすると、各行に自動的に「Prompt #n:」が接頭辞として追加されます"
+  },
+  "label_progress": {
+    "message": "進捗"
+  },
+  "advanced_settings": {
+    "message": "高度な設定"
+  },
+  "refresh_configuration_title": {
+    "message": "設定の更新"
+  },
+  "refresh_configuration_desc": {
+    "message": "リモートサーバーからモデル、アスペクト比、その他の動的な設定を強制的に再ロードします。最新の更新が表示されない場合に使用してください。"
+  },
+  "button_refresh": {
+    "message": "更新"
+  },
+  "button_refreshing": {
+    "message": "更新中..."
+  },
+  "refreshing_message": {
+    "message": "⏳ サーバーから最新の設定を取得中..."
+  },
+  "discover_other_tools": {
+    "message": "その他のツールを発見"
+  },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - 高速 [低優先度]"
+  }
+}

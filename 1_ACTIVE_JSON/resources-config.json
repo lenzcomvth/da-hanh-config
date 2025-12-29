@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-13",
+  "resources": {
+    "docs": [
+      {
+        "id": "getting-started-en",
+        "title": {
+          "en": "Getting Started Guide",
+          "vi": "Getting Started Guide"
+        },
+        "description": {
+          "en": "Create your first AI videos in 5 minutes",
+          "vi": "Create your first AI videos in 5 minutes"
+        },
+        "url": "https://facebook.com/dajhafnh.studio",
+        "type": "github",
+        "badge": "NEW",
+        "enabled": true
+      },
+      {
+        "id": "getting-started-vi",
+        "title": {
+          "en": "Hướng Dẫn Bắt Đầu",
+          "vi": "Hướng Dẫn Bắt Đầu"
+        },
+        "description": {
+          "en": "Tạo video AI đầu tiên trong 5 phút",
+          "vi": "Tạo video AI đầu tiên trong 5 phút"
+        },
+        "url": "https://facebook.com/dajhafnh.studio",
+        "type": "github",
+        "badge": "NEW",
+        "enabled": true
+      },
+      {
+        "id": "common-issues-en",
+        "title": {
+          "en": "Common Issues & Solutions",
+          "vi": "Common Issues & Solutions"
+        },
+        "description": {
+          "en": "Quick fixes for common problems",
+          "vi": "Quick fixes for common problems"
+        },
+        "url": "https://facebook.com/dajhafnh.studio",
+        "type": "github",
+        "enabled": true
+      }
+    ],
+    "videos": [
+      {
+        "id": "intro-tutorial",
+        "title": {
+          "en": "Dạ Hành Flow - Complete Tutorial",
+          "vi": "Dạ Hành Flow - Hướng Dẫn Đầy Đủ"
+        },
+        "description": {
+          "en": "Learn how to create bulk videos with AI",
+          "vi": "Học cách tạo video hàng loạt với AI"
+        },
+        "url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+        "duration": "5:32",
+        "channel": "Dạ Hành Flow",
+        "type": "youtube",
+        "badge": "HOT",
+        "enabled": true
+      }
+    ]
+  }
+}

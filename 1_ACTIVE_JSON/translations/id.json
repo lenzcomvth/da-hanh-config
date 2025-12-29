@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "SnapGen Flow"
+  },
+  "extDescription": {
+    "message": "Otomatisasi pembuatan video massal di Google Flow (Teks-ke-Video & Gambar-ke-Video)"
+  },
+  "tab_workspace": {
+    "message": "Ruang Kerja"
+  },
+  "tab_logs": {
+    "message": "Log"
+  },
+  "tab_settings": {
+    "message": "Pengaturan"
+  },
+  "tab_more_tools": {
+    "message": "Alat Lainnya"
+  },
+  "mode_text_to_video": {
+    "message": "Teks-ke-Video"
+  },
+  "mode_image_to_video": {
+    "message": "Gambar-ke-Video"
+  },
+  "prompt_list_label": {
+    "message": "Daftar Prompt"
+  },
+  "import_from_file": {
+    "message": "Impor dari file (.txt)"
+  },
+  "button_start": {
+    "message": "Mulai"
+  },
+  "button_stop": {
+    "message": "Berhenti"
+  },
+  "button_pause": {
+    "message": "Jeda"
+  },
+  "button_resume": {
+    "message": "Lanjutkan"
+  },
+  "status_ready": {
+    "message": "Siap"
+  },
+  "status_running": {
+    "message": "Berjalan..."
+  },
+  "status_paused": {
+    "message": "Dijeda"
+  },
+  "status_stopped": {
+    "message": "Dihentikan"
+  },
+  "settings_general": {
+    "message": "Pengaturan Umum"
+  },
+  "settings_download": {
+    "message": "Pengaturan Unduhan"
+  },
+  "videos_per_task": {
+    "message": "Video per tugas:"
+  },
+  "start_from": {
+    "message": "Mulai dari (Prompt/Gambar):"
+  },
+  "wait_time": {
+    "message": "Waktu tunggu pembuatan video (dtk):"
+  },
+  "model_label": {
+    "message": "Model (Opsional):"
+  },
+  "aspect_ratio_label": {
+    "message": "Rasio (Potongan T2V & I2V):"
+  },
+  "language_label": {
+    "message": "Bahasa:"
+  },
+  "auto_download_label": {
+    "message": "Unduh otomatis video:"
+  },
+  "configure_folder": {
+    "message": "Konfigurasi folder"
+  },
+  "download_tip": {
+    "message": "Tip: Matikan 'Tanyakan tempat menyimpan...' di pengaturan unduhan browser Anda untuk unduhan otomatis yang lancar."
+  },
+  "model_default": {
+    "message": "Bawaan (Veo 3.1 - Cepat)"
+  },
+  "model_veo2_fast": {
+    "message": "Veo 2 - Cepat"
+  },
+  "model_veo3_quality": {
+    "message": "Veo 3.1 - Kualitas"
+  },
+  "model_veo2_quality": {
+    "message": "Veo 2 - Kualitas"
+  },
+  "model_veo3_fast": {
+    "message": "Veo 3.1 - Cepat"
+  },
+  "ratio_landscape": {
+    "message": "Lanskap (16:9)"
+  },
+  "ratio_portrait": {
+    "message": "Potret (9:16)"
+  },
+  "mode_text_to_video_full": {
+    "message": "Teks ke Video"
+  },
+  "mode_image_to_video_full": {
+    "message": "Gambar ke Video"
+  },
+  "mode_images_full": {
+    "message": "Gambar"
+  },
+  "sort_order_az": {
+    "message": "A-Z"
+  },
+  "sort_order_za": {
+    "message": "Z-A"
+  },
+  "sort_order_newest": {
+    "message": "Terbaru"
+  },
+  "sort_order_oldest": {
+    "message": "Terlama"
+  },
+  "detailed_log": {
+    "message": "Log Rinci"
+  },
+  "failed_tasks": {
+    "message": "Tugas Gagal ({count})"
+  },
+  "copy_failed_tasks": {
+    "message": "Salin Prompt/Gambar Gagal"
+  },
+  "log_loading_selectors": {
+    "message": "Memuat selektor..."
+  },
+  "log_selectors_loaded": {
+    "message": "Selektor berhasil dimuat."
+  },
+  "log_selectors_failed": {
+    "message": "Gagal memuat selektor."
+  },
+  "log_using_fallback_selectors": {
+    "message": "Menggunakan selektor fallback."
+  },
+  "log_submit_success": {
+    "message": "Prompt #{index} berhasil dikirim."
+  },
+  "log_submit_fail": {
+    "message": "Gagal mengirim Prompt."
+  },
+  "log_policy_error_prompt": {
+    "message": "Kesalahan kebijakan terdeteksi untuk prompt. Melewati..."
+  },
+  "log_policy_error_image": {
+    "message": "Kesalahan kebijakan terdeteksi untuk gambar: {filename}. Melewati..."
+  },
+  "log_retry_task": {
+    "message": "Mencoba ulang Prompt #{index} (Coba lagi {retry}/5)..."
+  },
+  "log_skip_task": {
+    "message": "Melewati Prompt #{index} setelah {maxRetry} kali coba lagi."
+  },
+  "log_page_reload_fail": {
+    "message": "Gagal memuat ulang halaman"
+  },
+  "log_settings_fail": {
+    "message": "Gagal menerapkan pengaturan"
+  },
+  "log_scan_found_videos": {
+    "message": "Ditemukan {count} video baru. Memulai proses unduhan..."
+  },
+  "log_download_request_sent": {
+    "message": "Video baru diunduh!"
+  },
+  "log_download_request_failed": {
+    "message": "Unduhan gagal untuk {filename}: {error}"
+  },
+  "log_final_scan_started": {
+    "message": "SELESAI MENGIRIM PROMPT! Menunggu video terakhir selesai dibuat..."
+  },
+  "log_final_scan_stopped": {
+    "message": "✅ Otomatisasi selesai! Berhasil mengirim {total} prompt. Mengunduh {downloaded} video. Pemindaian akhir selesai."
+  },
+  "log_independent_scan_started": {
+    "message": "Pemindaian video independen dimulai (setiap 5 detik)."
+  },
+  "log_independent_scan_stopped": {
+    "message": "Menghentikan pemindaian video independen."
+  },
+  "log_images_sorted": {
+    "message": "Mengurutkan {count} gambar berdasarkan {order}."
+  },
+  "log_file_read_error": {
+    "message": "Gagal membaca file: {filename}"
+  },
+  "select_images": {
+    "message": "Pilih Gambar"
+  },
+  "selected_images": {
+    "message": "Dipilih: {count}"
+  },
+  "sort_az": {
+    "message": "A-Z"
+  },
+  "sort_za": {
+    "message": "Z-A"
+  },
+  "sort_newest": {
+    "message": "Terbaru"
+  },
+  "sort_oldest": {
+    "message": "Terlama"
+  },
+  "donate_text": {
+    "message": "Belikan Saya Kopi"
+  },
+  "author_info": {
+    "message": "oleh Your Name"
+  },
+  "wrong_page_warning": {
+    "message": "Silakan navigasi ke labs.google/fx/tools/flow untuk menggunakan ekstensi ini."
+  },
+  "theme_label": {
+    "message": "Tema:"
+  },
+  "theme_vibrant_orange": {
+    "message": "Oranye Cerah (Gelap)"
+  },
+  "theme_sunset_gradient": {
+    "message": "Gradien Matahari Terbenam"
+  },
+  "theme_orange_purple": {
+    "message": "Oranye + Ungu (Teknis)"
+  },
+  "theme_description_vibrant_orange": {
+    "message": "Tema gelap modern dengan aksen oranye cerah"
+  },
+  "theme_description_sunset_gradient": {
+    "message": "Latar belakang gradien hangat dengan nada karang"
+  },
+  "theme_description_orange_purple": {
+    "message": "Latar belakang ungu gelap dengan sorotan oranye dan emas"
+  },
+  "modal_title_image_prompt_editor": {
+    "message": "Kelola Gambar dan Prompt"
+  },
+  "modal_search_placeholder": {
+    "message": "Cari berdasarkan nama gambar atau prompt..."
+  },
+  "modal_import_prompts": {
+    "message": "Impor Prompt dari File"
+  },
+  "modal_add_images": {
+    "message": "Tambahkan Gambar"
+  },
+  "modal_delete_selected": {
+    "message": "Hapus yang Dipilih"
+  },
+  "modal_save_and_close": {
+    "message": "Simpan dan Tutup"
+  },
+  "modal_cancel": {
+    "message": "Batal"
+  },
+  "modal_column_number": {
+    "message": "No."
+  },
+  "modal_column_image": {
+    "message": "Gambar"
+  },
+  "modal_column_prompt": {
+    "message": "Prompt"
+  },
+  "modal_column_status": {
+    "message": "Status"
+  },
+  "modal_status_needs_prompt": {
+    "message": "Perlu prompt"
+  },
+  "modal_status_ready": {
+    "message": "Siap"
+  },
+  "modal_prompt_placeholder": {
+    "message": "Masukkan prompt untuk gambar ini..."
+  },
+  "modal_no_images": {
+    "message": "Belum ada gambar. Klik \"Tambahkan Gambar\" untuk memulai."
+  },
+  "modal_no_results": {
+    "message": "Tidak ada gambar yang cocok ditemukan"
+  },
+  "modal_import_success": {
+    "message": "Berhasil mengimpor {count} prompt!"
+  },
+  "modal_import_error": {
+    "message": "Kesalahan membaca file. Harap periksa format file."
+  },
+  "banner_free_title": {
+    "message": "Paket Gratis"
+  },
+  "banner_free_description": {
+    "message": "Anda menggunakan SnapGen Flow secara gratis sepenuhnya! Otomatisasi tak terbatas, tanpa batasan, semua fitur termasuk."
+  },
+  "banner_free_badge": {
+    "message": "100% Gratis Selamanya"
+  },
+  "banner_promo_title": {
+    "message": "Penawaran Khusus"
+  },
+  "banner_promo_description": {
+    "message": "Jelajahi alat dan ekstensi SnapGen kami yang lain untuk meningkatkan produktivitas Anda!"
+  },
+  "banner_promo_link": {
+    "message": "Temukan Lebih Banyak"
+  },
+  "banner_support_title": {
+    "message": "Butuh Bantuan?"
+  },
+  "banner_support_description": {
+    "message": "Tim dukungan kami siap membantu Anda. Hubungi kami melalui Zalo atau Telegram untuk bantuan cepat!"
+  },
+  "banner_free_compact": {
+    "message": "👑 100% Gratis Selamanya"
+  },
+  "banner_promo_marquee": {
+    "message": "Jelajahi alat dan ekstensi SnapGen kami yang lain untuk meningkatkan produktivitas Anda!"
+  },
+  "banner_support_compact_line1": {
+    "message": "Butuh Bantuan?"
+  },
+  "banner_support_compact_line2": {
+    "message": "Zalo | Telegram"
+  },
+  "generation_settings": {
+    "message": "Pengaturan Pembuatan"
+  },
+  "label_model": {
+    "message": "Model"
+  },
+  "label_videos_per_prompt": {
+    "message": "Video/prompt"
+  },
+  "desc_videos_per_prompt": {
+    "message": "Jumlah video yang akan dibuat untuk setiap prompt"
+  },
+  "label_aspect_ratio": {
+    "message": "Rasio Aspek"
+  },
+  "hint_prompt_prefix": {
+    "message": "Saat Anda mengklik Mulai, setiap baris akan secara otomatis diberi awalan dengan \"Prompt #n:\""
+  },
+  "label_progress": {
+    "message": "Kemajuan"
+  },
+  "advanced_settings": {
+    "message": "Pengaturan Lanjutan"
+  },
+  "refresh_configuration_title": {
+    "message": "Perbarui Konfigurasi"
+  },
+  "refresh_configuration_desc": {
+    "message": "Paksa muat ulang model, rasio aspek, dan pengaturan dinamis lainnya dari server jarak jauh. Gunakan ini jika Anda tidak melihat pembaruan terbaru."
+  },
+  "button_refresh": {
+    "message": "Perbarui"
+  },
+  "button_refreshing": {
+    "message": "Memperbarui..."
+  },
+  "refreshing_message": {
+    "message": "⏳ Mengambil konfigurasi terbaru dari server..."
+  },
+  "discover_other_tools": {
+    "message": "Temukan Alat Lainnya"
+  },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - Cepat [Prioritas Lebih Rendah]"
+  }
+}

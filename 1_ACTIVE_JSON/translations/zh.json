@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "SnapGen Flow"
+  },
+  "extDescription": {
+    "message": "在 Google Flow 上自动批量创建视频（文字转视频 & 图片转视频）"
+  },
+  "tab_workspace": {
+    "message": "工作区"
+  },
+  "tab_logs": {
+    "message": "日志"
+  },
+  "tab_settings": {
+    "message": "设置"
+  },
+  "tab_more_tools": {
+    "message": "更多工具"
+  },
+  "mode_text_to_video": {
+    "message": "文字转视频"
+  },
+  "mode_image_to_video": {
+    "message": "图片转视频"
+  },
+  "prompt_list_label": {
+    "message": "提示词列表"
+  },
+  "import_from_file": {
+    "message": "从文件导入 (.txt)"
+  },
+  "button_start": {
+    "message": "开始"
+  },
+  "button_stop": {
+    "message": "停止"
+  },
+  "button_pause": {
+    "message": "暂停"
+  },
+  "button_resume": {
+    "message": "恢复"
+  },
+  "status_ready": {
+    "message": "就绪"
+  },
+  "status_running": {
+    "message": "运行中..."
+  },
+  "status_paused": {
+    "message": "已暂停"
+  },
+  "status_stopped": {
+    "message": "已停止"
+  },
+  "settings_general": {
+    "message": "通用设置"
+  },
+  "settings_download": {
+    "message": "下载设置"
+  },
+  "videos_per_task": {
+    "message": "每个任务的视频数:"
+  },
+  "start_from": {
+    "message": "起始位置 (提示词/图片):"
+  },
+  "wait_time": {
+    "message": "视频创建等待时间 (秒):"
+  },
+  "model_label": {
+    "message": "模型 (可选):"
+  },
+  "aspect_ratio_label": {
+    "message": "比例 (T2V & I2V 裁剪):"
+  },
+  "language_label": {
+    "message": "语言:"
+  },
+  "auto_download_label": {
+    "message": "自动下载视频:"
+  },
+  "configure_folder": {
+    "message": "配置文件夹"
+  },
+  "download_tip": {
+    "message": "提示: 在浏览器下载设置中关闭“询问保存位置...”以实现无缝自动下载。"
+  },
+  "model_default": {
+    "message": "默认 (Veo 3.1 - 快速)"
+  },
+  "model_veo2_fast": {
+    "message": "Veo 2 - 快速"
+  },
+  "model_veo3_quality": {
+    "message": "Veo 3.1 - 质量"
+  },
+  "model_veo2_quality": {
+    "message": "Veo 2 - 质量"
+  },
+  "model_veo3_fast": {
+    "message": "Veo 3.1 - 快速"
+  },
+  "ratio_landscape": {
+    "message": "横向 (16:9)"
+  },
+  "ratio_portrait": {
+    "message": "纵向 (9:16)"
+  },
+  "mode_text_to_video_full": {
+    "message": "文字转视频"
+  },
+  "mode_image_to_video_full": {
+    "message": "图片转视频"
+  },
+  "mode_images_full": {
+    "message": "图片"
+  },
+  "sort_order_az": {
+    "message": "A-Z"
+  },
+  "sort_order_za": {
+    "message": "Z-A"
+  },
+  "sort_order_newest": {
+    "message": "最新"
+  },
+  "sort_order_oldest": {
+    "message": "最旧"
+  },
+  "detailed_log": {
+    "message": "详细日志"
+  },
+  "failed_tasks": {
+    "message": "失败的任务 ({count})"
+  },
+  "copy_failed_tasks": {
+    "message": "复制失败的提示词/图片"
+  },
+  "log_loading_selectors": {
+    "message": "正在加载选择器..."
+  },
+  "log_selectors_loaded": {
+    "message": "选择器加载成功。"
+  },
+  "log_selectors_failed": {
+    "message": "加载选择器失败。"
+  },
+  "log_using_fallback_selectors": {
+    "message": "正在使用备用选择器。"
+  },
+  "log_submit_success": {
+    "message": "成功提交提示词 #{index}。"
+  },
+  "log_submit_fail": {
+    "message": "提交提示词失败。"
+  },
+  "log_policy_error_prompt": {
+    "message": "检测到提示词策略错误。跳过..."
+  },
+  "log_policy_error_image": {
+    "message": "检测到图片策略错误: {filename}。跳过..."
+  },
+  "log_retry_task": {
+    "message": "正在重试提示词 #{index} (重试 {retry}/5)..."
+  },
+  "log_skip_task": {
+    "message": "重试 {maxRetry} 次后跳过提示词 #{index}。"
+  },
+  "log_page_reload_fail": {
+    "message": "页面重新加载失败"
+  },
+  "log_settings_fail": {
+    "message": "应用设置失败"
+  },
+  "log_scan_found_videos": {
+    "message": "发现 {count} 个新视频。开始下载过程..."
+  },
+  "log_download_request_sent": {
+    "message": "新视频已下载！"
+  },
+  "log_download_request_failed": {
+    "message": "{filename} 下载失败: {error}"
+  },
+  "log_final_scan_started": {
+    "message": "提示词发送完毕！正在等待最后的视频完成生成..."
+  },
+  "log_final_scan_stopped": {
+    "message": "✅ 自动化完成！成功提交 {total} 个提示词。下载了 {downloaded} 个视频。最终扫描结束。"
+  },
+  "log_independent_scan_started": {
+    "message": "独立视频扫描已启动 (每 5 秒)。"
+  },
+  "log_independent_scan_stopped": {
+    "message": "独立视频扫描已停止。"
+  },
+  "log_images_sorted": {
+    "message": "已按 {order} 排序 {count} 张图片。"
+  },
+  "log_file_read_error": {
+    "message": "读取文件失败: {filename}"
+  },
+  "select_images": {
+    "message": "选择图片"
+  },
+  "selected_images": {
+    "message": "已选择: {count}"
+  },
+  "sort_az": {
+    "message": "A-Z"
+  },
+  "sort_za": {
+    "message": "Z-A"
+  },
+  "sort_newest": {
+    "message": "最新"
+  },
+  "sort_oldest": {
+    "message": "最旧"
+  },
+  "donate_text": {
+    "message": "请我喝杯咖啡"
+  },
+  "author_info": {
+    "message": "作者: Your Name"
+  },
+  "wrong_page_warning": {
+    "message": "请导航至 labs.google/fx/tools/flow 以使用此扩展程序。"
+  },
+  "theme_label": {
+    "message": "主题:"
+  },
+  "theme_vibrant_orange": {
+    "message": "活力橙 (深色)"
+  },
+  "theme_sunset_gradient": {
+    "message": "日落渐变"
+  },
+  "theme_orange_purple": {
+    "message": "橙色 + 紫色 (科技感)"
+  },
+  "theme_description_vibrant_orange": {
+    "message": "带有活力橙色调的现代深色主题"
+  },
+  "theme_description_sunset_gradient": {
+    "message": "带有珊瑚色调的温暖渐变背景"
+  },
+  "theme_description_orange_purple": {
+    "message": "带有橙色和金色高光的深紫色背景"
+  },
+  "modal_title_image_prompt_editor": {
+    "message": "管理图片和提示词"
+  },
+  "modal_search_placeholder": {
+    "message": "按图片名称或提示词搜索..."
+  },
+  "modal_import_prompts": {
+    "message": "从文件导入提示词"
+  },
+  "modal_add_images": {
+    "message": "添加图片"
+  },
+  "modal_delete_selected": {
+    "message": "删除选定的"
+  },
+  "modal_save_and_close": {
+    "message": "保存并关闭"
+  },
+  "modal_cancel": {
+    "message": "取消"
+  },
+  "modal_column_number": {
+    "message": "编号"
+  },
+  "modal_column_image": {
+    "message": "图片"
+  },
+  "modal_column_prompt": {
+    "message": "提示词"
+  },
+  "modal_column_status": {
+    "message": "状态"
+  },
+  "modal_status_needs_prompt": {
+    "message": "需要提示词"
+  },
+  "modal_status_ready": {
+    "message": "就绪"
+  },
+  "modal_prompt_placeholder": {
+    "message": "输入此图片的提示词..."
+  },
+  "modal_no_images": {
+    "message": "暂无图片。点击“添加图片”开始。"
+  },
+  "modal_no_results": {
+    "message": "未找到匹配的图片"
+  },
+  "modal_import_success": {
+    "message": "成功导入 {count} 个提示词！"
+  },
+  "modal_import_error": {
+    "message": "读取文件出错。请检查文件格式。"
+  },
+  "banner_free_title": {
+    "message": "免费计划"
+  },
+  "banner_free_description": {
+    "message": "您正在完全免费使用 SnapGen Flow！无限自动化，无限制，包含所有功能。"
+  },
+  "banner_free_badge": {
+    "message": "100% 永久免费"
+  },
+  "banner_promo_title": {
+    "message": "特别优惠"
+  },
+  "banner_promo_description": {
+    "message": "探索我们的其他 SnapGen 工具和扩展，提升您的生产力！"
+  },
+  "banner_promo_link": {
+    "message": "发现更多"
+  },
+  "banner_support_title": {
+    "message": "需要帮助吗？"
+  },
+  "banner_support_description": {
+    "message": "我们的支持团队随时准备为您提供帮助。通过 Zalo 或 Telegram 联系我们以获得快速协助！"
+  },
+  "banner_free_compact": {
+    "message": "👑 100% 永久免费"
+  },
+  "banner_promo_marquee": {
+    "message": "探索我们的其他 SnapGen 工具和扩展，提升您的生产力！"
+  },
+  "banner_support_compact_line1": {
+    "message": "需要帮助吗？"
+  },
+  "banner_support_compact_line2": {
+    "message": "Zalo | Telegram"
+  },
+  "generation_settings": {
+    "message": "生成设置"
+  },
+  "label_model": {
+    "message": "模型"
+  },
+  "label_videos_per_prompt": {
+    "message": "视频数/提示词"
+  },
+  "desc_videos_per_prompt": {
+    "message": "为每个提示词生成的视频数量"
+  },
+  "label_aspect_ratio": {
+    "message": "宽高比"
+  },
+  "hint_prompt_prefix": {
+    "message": "点击开始时，每行将自动以“Prompt #n:”作为前缀"
+  },
+  "label_progress": {
+    "message": "进度"
+  },
+  "advanced_settings": {
+    "message": "高级设置"
+  },
+  "refresh_configuration_title": {
+    "message": "刷新配置"
+  },
+  "refresh_configuration_desc": {
+    "message": "强制从远程服务器重新加载模型、宽高比和其他动态设置。如果看不到最新更新，请使用此功能。"
+  },
+  "button_refresh": {
+    "message": "刷新"
+  },
+  "button_refreshing": {
+    "message": "正在刷新..."
+  },
+  "refreshing_message": {
+    "message": "⏳ 正在从服务器获取最新配置..."
+  },
+  "discover_other_tools": {
+    "message": "发现其他工具"
+  },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - 快速 [较低优先级]"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "version": "2.0.1",
+    "date": "2025-12-28",
+    "changes": [
+      "Khởi tạo dự án DH-Veo3-Flow với kiến trúc Vite + React Stable",
+      "Tích hợp hệ thống Design System: Glassmorphism + Sunset Gradient",
+      "Cấu hình Tailwind CSS v3.4 và PostCSS ổn định",
+      "Xây dựng Dashboard điều khiển trung tâm (Workspace)",
+      "Thiết lập script khởi chạy tự động run_dajhafnh.bat"
+    ]
+  }
+]
