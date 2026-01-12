@@ -16,6 +16,7 @@
     "donate": {
       "enabled": true,
       "text": "Ủng hộ tôi nếu ứng dụng thực sự hỗ trợ được bạn | Cảm ơn",
+    "logo_url": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/unnamed.jpg",
       "qrCode": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/qr.jpg"
     }
   }
