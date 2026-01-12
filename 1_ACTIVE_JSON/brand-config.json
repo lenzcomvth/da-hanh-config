@@ -9,14 +9,14 @@
       },
       "zalo": {
         "icon": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/zalo.png",
-        "url": "https://zalo.me/your-number"
+        "url": "https://zalo.me/0914128658"
       }
     },
     "footer": "© 2026 Dạ Hành Studio",
     "donate": {
       "enabled": true,
       "text": "Ủng hộ tôi nếu ứng dụng thực sự hỗ trợ được bạn | Cảm ơn",
-    "logo_url": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/unnamed.jpg",
+      "logo_url": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/MoiLyCafe.jpg",
       "qrCode": "https://raw.githubusercontent.com/lenzcomvth/Somethings/refs/heads/main/qr.jpg"
     }
   }
